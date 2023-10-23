@@ -1,0 +1,9 @@
+48. Explique por que não podemos ter construtores declarados com a palavra-chave abstract.
+
+Resposta:
+Os construtores, são métodos especiais em uma classe que são usados para inicializar objetos dessa classe.
+Eles não podem ser declarados como abstratos porque a ideia fundamental por trás de um construtor é criar
+um objeto de uma classe específica e, para isso, ele deve executar uma ação específica de inicialização.
+Diferentemente dos métodos abstratos, que são implementados nas subclasses, os construtores não podem ser
+fornecidos em uma subclasse. Eles são chamados automaticamente quando um objeto é criado e, portanto, não
+podem ser abstratos, pois precisam fornecer uma implementação concreta para essa tarefa de inicialização.
